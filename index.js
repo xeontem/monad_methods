@@ -1,7 +1,7 @@
 var identity = x => x;
 var compose = f => g => x => f(g(x));
 var apply = f => x => f(x);
-
+asdasdasdasd
 var W = x => y => x(y)(y);// duplicator
 var K = x => y => x; // cancelator
 var C = f => a => b => f(b)(a);// permutator(flip)
